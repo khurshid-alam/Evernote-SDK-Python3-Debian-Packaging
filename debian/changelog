@@ -1,0 +1,18 @@
+evernote-sdk-python3 (1.25.1) UNRELEASED; urgency=medium
+
+  * Building from git master
+
+ -- Khurshid Alam (Technologist) <khurshid.alam@linuxmail.org>  Fri, 05 May 2017 23:52:41 +0530
+
+evernote-sdk-python3 (1.25.1+z+20160522+gitdee9299-0ubuntu1~14.10) utopic; urgency=medium
+
+  * Future proof version number.
+  * Provide python3-thrift, don't drop upstream thrift addition.
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Thu, 22 May 2014 09:24:45 +0200
+
+evernote-sdk-python3 (1.25.1+gitdee9299+dfsg-0ubuntu1~14.10) utopic; urgency=low
+
+  * Initial release.
+
+ -- Daniel Holbach <daniel.holbach@ubuntu.com>  Tue, 13 May 2014 09:59:23 +0200

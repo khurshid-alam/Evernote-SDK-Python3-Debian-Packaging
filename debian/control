@@ -1,0 +1,24 @@
+Source: evernote-sdk-python3
+Section: devel
+Priority: optional
+Maintainer: Ubuntu Core Apps Developers <ubuntu-touch-coreapps@lists.launchpad.net>
+Build-Depends: debhelper (>= 9~),
+               dh-python,
+               git,
+               python3-all (>= 2.6.6-3~),
+               python3-setuptools
+X-Python-Version: >= 3.4
+Standards-Version: 3.9.5
+Homepage: https://github.com/evernote/evernote-sdk-python
+
+Package: evernote-sdk-python3
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Provides: python3-thrift
+Description: SDK to call Evernote Cloud API from Python
+ This SDK contains wrapper code used to call the Evernote Cloud API from
+ Python.
+ .
+ The SDK also contains a sample script. The code demonstrates the basic use
+ of the SDK for single-user scripts. Real web applications must use OAuth to
+ authenticate to the Evernote service.
